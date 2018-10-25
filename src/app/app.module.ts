@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
- import {ImageComparisonModule} from 'ng-image-comparison';
+import {ImageComparisonModule} from 'ng-image-comparison';
 @NgModule({
   declarations: [
     AppComponent
