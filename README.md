@@ -1,4 +1,7 @@
 # BiforeAfter
+dependencies
+   "image-comparison": "2.0.4",
+
  npm i ng-image-comparison
  # usage
 add app.module
