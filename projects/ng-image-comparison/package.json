@@ -1,9 +1,25 @@
 {
   "name": "ng-image-comparison",
   "version": "0.0.1",
+  "description": "Angular images comparison ",
+  "homepage": "https://github.com/zinderud/AngularImageComparison",
+  "author": {
+    "name": "Murat Onur",
+    "url": "https://github.com/zinderud"
+  },
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "images"
+  ],
   "peerDependencies": {
     "@angular/common": "^7.0.0",
     "@angular/core": "^7.0.0",
     "image-comparison": "2.0.4"
-  }
+  },
+  "private": false
 }
+
+
+
+ 

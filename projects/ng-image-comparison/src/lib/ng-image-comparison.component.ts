@@ -1,4 +1,4 @@
-import { Component, OnInit, AfterViewInit, ViewChild, ViewChildren, ElementRef, QueryList, Renderer2, Input } from '@angular/core';
+import { Component, OnInit, AfterViewInit, ViewChild, ViewChildren, ElementRef, QueryList, Input } from '@angular/core';
 import * as ImageComparison from 'image-comparison';
 import 'style-loader!image-comparison/src/ImageComparison.css';
 @Component({
@@ -18,7 +18,7 @@ export class NgImageComparisonComponent implements OnInit, AfterViewInit {
   @ViewChild('comparisonContainer') comparisonContainer: ElementRef;
 
   @ViewChildren('comparisonImage') comparisonImages: QueryList<any>;
-  constructor(private renderer: Renderer2, ) { }
+  constructor( ) { }
 
   ngOnInit() {
 
