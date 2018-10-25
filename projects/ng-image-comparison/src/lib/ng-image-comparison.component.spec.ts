@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ImageCompareComponent } from './image-compare.component';
+import { NgImageComparisonComponent } from './ng-image-comparison.component';
 
-describe('ImageCompareComponent', () => {
-  let component: ImageCompareComponent;
-  let fixture: ComponentFixture<ImageCompareComponent>;
+describe('NgImageComparisonComponent', () => {
+  let component: NgImageComparisonComponent;
+  let fixture: ComponentFixture<NgImageComparisonComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ImageCompareComponent ]
+      declarations: [ NgImageComparisonComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ImageCompareComponent);
+    fixture = TestBed.createComponent(NgImageComparisonComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

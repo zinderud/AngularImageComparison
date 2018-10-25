@@ -16,6 +16,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ng-image-comparison": [
+        "dist/ng-image-comparison"
+      ],
+      "ng-image-comparison/*": [
+        "dist/ng-image-comparison/*"
+      ]
+    }
   }
 }

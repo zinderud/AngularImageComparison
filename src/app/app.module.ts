@@ -3,8 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ImageCompareModule } from './image-compare/image-compare.module';
-
+ import {ImageComparisonModule} from 'ng-image-comparison';
 @NgModule({
   declarations: [
     AppComponent
@@ -12,7 +11,7 @@ import { ImageCompareModule } from './image-compare/image-compare.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ImageCompareModule
+    ImageComparisonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

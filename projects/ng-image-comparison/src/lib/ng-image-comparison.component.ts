@@ -2,11 +2,17 @@ import { Component, OnInit, AfterViewInit, ViewChild, ViewChildren, ElementRef, 
 import * as ImageComparison from 'image-comparison';
 import 'style-loader!image-comparison/src/ImageComparison.css';
 @Component({
-  selector: 'app-image-compare',
-  templateUrl: './image-compare.component.html',
-  styleUrls: ['./image-compare.component.css']
+  selector: 'ng-image-comparison',
+  template: `
+
+  <div #comparisonContainer class="js-comparison-container">
+  <img #comparisonImage class="comparison-image" [src]="imageSrcs[0]" alt="">
+  <img #comparisonImage class="comparison-image"   [src]="imageSrcs[1]" alt="">
+</div>
+  `,
+  styles: []
 })
-export class ImageCompareComponent implements OnInit, AfterViewInit {
+export class NgImageComparisonComponent implements OnInit, AfterViewInit {
 
   @Input( ) imageSrcs: string[];
   @ViewChild('comparisonContainer') comparisonContainer: ElementRef;
