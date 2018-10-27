@@ -1,6 +1,6 @@
 {
   "name": "ng-image-comparison",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "Angular images comparison ",
   "homepage": "https://github.com/zinderud/AngularImageComparison",
   "author": {
@@ -13,8 +13,8 @@
     "images"
   ],
   "peerDependencies": {
-    "@angular/common": "^7.0.0",
-    "@angular/core": "^7.0.0",
+    "@angular/common":  ">=5.0.0 <7.0.1",
+    "@angular/core":   ">=5.0.0 <7.0.1",
     "image-comparison": "2.0.4"
   },
   "private": false
